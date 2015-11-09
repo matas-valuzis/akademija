@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Matas
- * Date: 2015.11.03
- * Time: 18:15
- */
-
 namespace OOP;
 
 require_once "Bid.php";

@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Matas
- * Date: 2015.11.09
- * Time: 21:59
- */
-
 namespace OOP;
 
 require_once "User.php";
