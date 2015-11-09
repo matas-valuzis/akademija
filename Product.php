@@ -1,7 +1,6 @@
 <?php
 namespace OOP;
 
-require_once "Bid.php";
 
 class Product {
     private $name;
@@ -69,3 +68,5 @@ class Product {
         return $imax;
     }
 }
+
+require_once "Bid.php";

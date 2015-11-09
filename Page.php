@@ -1,7 +1,6 @@
 <?php
 namespace OOP;
 
-require_once "Article.php";
 
 class Page{
     private $articles;
@@ -45,3 +44,5 @@ class Page{
         }
     }
 }
+
+require_once "Article.php";

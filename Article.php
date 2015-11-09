@@ -1,7 +1,6 @@
 <?php
 namespace OOP;
 
-require_once "Product.php";
 
 class Article {
     private $product;
@@ -80,3 +79,6 @@ class Article {
         $this->end_date = $end_date;
     }
 }
+
+
+require_once "Product.php";

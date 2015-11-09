@@ -1,7 +1,6 @@
 <?php
 namespace OOP;
 
-require_once "User.php";
 
 class Bid {
     private $bidder;
@@ -64,3 +63,5 @@ class Bid {
 
 
 }
+
+require_once "User.php";

@@ -1,10 +1,6 @@
 <?php
 namespace OOP;
 
-require_once "User.php";
-require_once "Bid.php";
-require_once "Product.php";
-require_once "Article.php";
 
 class DataFetcher{
 
@@ -60,3 +56,8 @@ class DataFetcher{
         return [$article, $article2, $article3, $article4, $article5];
     }
 }
+
+require_once "User.php";
+require_once "Bid.php";
+require_once "Product.php";
+require_once "Article.php";
