@@ -60,8 +60,5 @@ class Bid {
     {
         $this->date = $date;
     }
-
-
 }
 
-require_once "User.php";

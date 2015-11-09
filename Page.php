@@ -45,4 +45,3 @@ class Page{
     }
 }
 
-require_once "Article.php";

@@ -2,9 +2,15 @@
 namespace OOP;
 
 
-class DataFetcher{
+class DataFetcher {
 
     public static function fetchArticles(){
+
+        require_once "User.php";
+        require_once "Bid.php";
+        require_once "Product.php";
+        require_once "Article.php";
+
         $bert = new User("Bert", "Rose", "rose@phoroneus.com", 'female');
         $rush = new User("Rush", "Tommy", "rush@chronos.com", 'male');
         $howard = new User("Miguel", "Howard", "howard@aurigae.com", 'male');
@@ -57,7 +63,3 @@ class DataFetcher{
     }
 }
 
-require_once "User.php";
-require_once "Bid.php";
-require_once "Product.php";
-require_once "Article.php";

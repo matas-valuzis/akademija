@@ -2,8 +2,7 @@
 namespace OOP;
 
 
-class User
-{
+class User {
     private $name;
     private $last_name;
     private $email;
@@ -80,7 +79,5 @@ class User
     {
         $this->gender = $gender;
     }
-
-
 
 }

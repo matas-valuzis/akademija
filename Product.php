@@ -69,4 +69,3 @@ class Product {
     }
 }
 
-require_once "Bid.php";

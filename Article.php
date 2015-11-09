@@ -81,4 +81,3 @@ class Article {
 }
 
 
-require_once "Product.php";
